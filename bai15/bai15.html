@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bai15.css">
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <p>Use the following form to send a message to Example Cafe</p>
+
+    <form class="form">
+        <fieldset>
+            <legend>Your message: </legend>
+            <div>
+                <label for="email">Your email: </label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>How you found us: </legend>
+            <div>
+                <label for="option">How did you hear of us? : </label>
+                <select name="option" id="option">
+                    <option value="Google">Google</option>
+                </select>
+            </div>
+
+            <div>
+                <span>Newsletter</span>
+                <input type="checkbox">
+                <label for="checkbox">Ensure this box is checked if you would like to receive email updates: </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information: </legend>
+            <div>
+                <label for="fist-name">First name : </label>
+                <input type="text" id="fist-name" required>
+            </div>
+            <div>
+                <label for="fist-name">Last name : </label>
+                <input type="text" id="fist-name" required>
+            </div>
+            <div>
+                <label for="fist-name">E-mail : </label>
+                <input type="text" id="fist-name" required>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Competition Question: </legend>
+            <div>
+                <label for="fist-name">How tall is the Eiffel Tower in Paris, France? : </label>
+                <select name="option" id="option">
+                    <option value="584">584 ft</option>
+                    <option value="784">784 ft</option>
+                    <option value="984">984 ft</option>
+                    <option value="1184">1184 ft</option>
+                </select>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Tiebreaker Question: </legend>
+            <div>
+                <label for="fist-name">How tall is the Eiffel Tower in Paris, France? : </label>
+                <select name="option" id="option">
+                    <option value="584">584 ft</option>
+                    <option value="784">784 ft</option>
+                    <option value="984">984 ft</option>
+                    <option value="1184">1184 ft</option>
+                </select>
+            </div>
+        </fieldset>
+
+
+        <input type="submit" value="send message">
+    </form>
+
+</body>
+
+</html>

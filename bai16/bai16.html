@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bai15.css">
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <p>* denotes mandatory</p>
+
+    <form class="form">
+        <div>
+            <label for="text">Full name*: </label>
+            <input type="text" id="text" placeholder="FirstName LastName" required>
+        </div>
+        <div>
+            <label for="message">Email address*: </label>
+            <input type="email" id="email" placeholder="EMAIL ADDRESS" required>
+        </div>
+
+
+        <div>
+            <label for="option">Select Tour Package* : </label>
+            <select name="option" id="option">
+                <option value="Goa">Goa</option>
+            </select>
+        </div>
+
+        <div>
+            <span>Newsletter</span>
+            <input type="checkbox">
+            <label for="checkbox">Ensure this box is checked if you would like to receive email updates: </label>
+        </div>
+
+
+        <div>
+            <label for="text">Arrival date*: </label>
+            <input type="text" id="text" placeholder="m/d/y" required>
+        </div>
+        <div>
+            <label for="text">Number of person*: </label>
+            <input type="text" id="text" placeholder="UNKNOWN_TYPE" required>
+        </div>
+
+        <input type="submit" value="send message">
+    </form>
+
+</body>
+
+</html>

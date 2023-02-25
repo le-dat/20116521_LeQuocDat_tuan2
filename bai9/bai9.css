@@ -1,0 +1,14 @@
+td,
+th {
+  border: 1px solid orange;
+  text-align: left;
+}
+td {
+  background-color: rgb(221, 180, 103);
+}
+th {
+  background-color: aqua;
+}
+table {
+  border-collapse: collapse;
+}
